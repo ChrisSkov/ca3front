@@ -89,10 +89,10 @@ class App extends Component {
   logout = () => {
     facade.logout();
     this.setState({ loggedIn: false });
-  }; //TODO
+  };
   login = (user, pass) => {
     facade.login(user, pass).then(res => this.setState({ loggedIn: true }));
-  }; //TODO
+  };
   render() {
     return (
       <div>

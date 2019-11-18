@@ -122,7 +122,7 @@ const Header = () => {
       </li>
       <li>
         <NavLink activeClassName="active" to="/DND">
-          Dungeons and Dragon
+          Dungeons and Dragons
         </NavLink>
       </li>
     </ul>
